@@ -1,0 +1,182 @@
+body{
+    width: 100%;
+    /*align: center;*/
+    background-color: whitesmoke;
+}
+header{
+    align: center;
+}
+#row{
+    width: 100%;
+    background-color: #113e3f;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#row1{
+    width: 100%;
+    background-color: #f5f5f5;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+/*Estilos del header*/
+#BotonMenu{
+    background-color: #338183;
+}
+#imgEscudo{
+    height: 135px;
+    margin-bottom: 7px;
+    box-shadow:  -4px 3px 9px 0px #ffffff;
+}
+#cabezote{
+    width: 100%;
+    padding-left: 0px;
+}
+#imgCabezote{
+    height: 135px;
+}
+#imgOnces{
+    height: 135px;
+    width: 100%;
+}
+#menuNavHeader{
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 0px;
+    margin-bottom: 0px;
+    margin-right: ;
+}
+#a{
+    color: #ffffff;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+/*Estilos del section*/
+/*base del foro*/
+#baseF{
+    background-image: url(../../fondos/fondoForo.jpg);
+    background-size: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0%;
+}
+/*base del login*/
+#baseL{
+    background-image: url(../../fondos/fondoLogin.png);
+    background-position: center;/*arriba a la derecha*/
+    background-repeat: no-repeat;/*que no se repita el fondo*/
+    background-size: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0%;
+}
+#imgManual{
+    margin-left: 10%;
+    width: 300px;
+    height: 300px;
+    
+}
+#table{
+    width: 100%;
+    border: 0px;
+}
+#titulo{
+    font-size: 35px;
+}
+#texto{
+    font-size: 16px; 
+    color: #000000;
+    text-align: justify;
+}
+#tableFComentarios{
+     overflow:scroll;
+     height:595px;
+     width:90%;
+     margin-bottom: 10px;
+}
+
+/*Estilos del footer*/
+#imgUbicacion{
+    height: 70%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow:  0 0 15px 2px #ffffff;
+}
+#iconosFooter{
+    color: #fff;
+}
+#tableFooter{
+    border-color: #a0131b;
+}
+#tableFooter2{
+    height: 70px;
+    background-color: #eeeeee;
+    width: 100%;   
+}
+#imgLogos{
+    width: 210px;
+    height: 55px;
+    box-shadow: -4px 3px 10px 0px #6f0a0a;
+}
+
+/*Color del elemento que se encuentra debajo del puntero de mouse*/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #338183;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #0a0000;
+}
+.navbar-inverse .navbar-brand {
+    color: #250a0a;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #338183;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #fff;
+  background-color: #338183;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #338183;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #060000;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: #338183;
+  }
+  
+/*Color del borde de la tabla comentarios en foro*/
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ece6e6;
+}
