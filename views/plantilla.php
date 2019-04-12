@@ -16,8 +16,9 @@
 <?php include ('modulos/header.php'); ?>
     </header>
         <section>
-            <?php  
-            if(isset($_GET["ruta"])){
+            <?php
+            
+            if(isset($_GET["ruta"]) && $_GET["ruta"]){
                 if($_GET["ruta"] == "inicio" ||
                    $_GET["ruta"] == "productos" ||
                    $_GET["ruta"] == "nosotros" ||
@@ -27,7 +28,7 @@
                     include "modulos/404.php";
                 }
             }else{
-                include "modulos/404.php";
+                include "modulos/inicio.php";
             }
             ?>
         </section>

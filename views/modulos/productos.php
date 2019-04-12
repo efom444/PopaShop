@@ -1,23 +1,33 @@
     <div class="row" id="row1">
     <div class="col-md-12">
-        <div class="container-fluid">
+        <div>
         <div class="table-condensed">
-            <table id="table">
-    <tr>
-        <td colspan="2" align="center">
-            <IMG src="../images/bienvenidos.png" class="img-responsive">
-        </td>
-        <h2>Prueba de productos</h2>
-    </tr>
-    <tr>
-        <td style="padding-left: 0%;">
-            <IMG src="../images/inicio2.png" class="img-responsive">
-        </td>
-        <td style="padding-left: 0%;">
-            <IMG src="../images/inicio.png" class="img-responsive">
-        </td>
-    </tr>
-            </table>
+            <!-- TABLA PRODUCTOS-->
+            <div id="tablaProductos" align="center">
+              <h4>Productos</h4>
+              
+                <?php 
+                $datoProductos = ControladorProductos::ctrMostrarProductos();
+                //var_dump($datoProductos);
+                foreach ($datoProductos as $dato) {
+                    echo '<div class="col-md-3">
+                        <div>
+                            <img class="img-circle img-responsive" style="width:150px;height: 100px;" src="src/assets/productos/' . $dato["fotoProducto"].'" alt="imagen de '.$dato["nombreProducto"].'">
+                        </div>
+                        <div>
+                            <h2>'.$dato["nombreProducto"].'</h2>
+                        </div>
+                        <div>
+                            <h3>$'.$dato["precioProducto"].'</h3>
+                        </div><br>
+                        </div>';
+                }
+                ?>
+          
+            </div>
+            </div>
+             </div>
+             <!-- END SIMULACION -->
         </div>
         </div>
     </div>
