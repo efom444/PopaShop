@@ -15,6 +15,9 @@
                         </div>
                         <div>
                             <h4>$'.$dato["precioProducto"].'</h4>
+                        </div>
+                        <div>
+                            
                         </div><br>
                         </div>';
                 } 

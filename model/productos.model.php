@@ -13,8 +13,7 @@ class ModeloProductos{
 			return $stmt -> fetch();
 
 		}else{
-		$consulta = Conexion::conectar()->prepare("select * from $tabla");
-		//$consulta->bindParam(1, $tabla, PDO::PARAM_STR);
+		$consulta = Conexion::conectar()->prepare("SELECT * FROM $tabla");
 		$consulta->execute();
 		return $consulta->fetchAll();
 		}
